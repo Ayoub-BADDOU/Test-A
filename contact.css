@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    /* background-color: red; */
+    height: 60px;
+}
+
+.cssBorderBottom:hover{
+    border-bottom: 3px solid rgb(171, 66, 157) !important;
+}
+.logo a{
+    font-size: 20px;
+    color: rgb(27, 174, 241);
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a{
+    color: #666 !important;
+}
+
+/* ------------------- hero section */
+.bgImage{
+    background-image: url('./img/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+}
+
+/* ------------------- contact section */
+form input, select{
+    height: 44px !important;
+}
+form button{
+    width: 120px;
+}
+
+.textGray{
+    color: #aaa;
+    font-size: 14px;
+}
+.cssIcon{
+    width: 18px;
+}
+/* --------------- section people */
+.cssCard{
+    border: none !important;
+    border-radius: 0px !important;
+}
+.cssCard img{
+    border-radius: 0px;
+}
+.cssCard h6{color: rgb(222, 102, 142) !important;}
+.cssCard a img{
+    width: 16px;
+}
+/* ---------------- Footer */
+.cssFooter{
+    background-color: rgb(238, 236, 236);
+    /* height: 260px; */
+}
+.cssLiks a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+}
+.socialMedia img{
+    width: 18px;
+}
+.cssFooterContainer{
+    width: 60%;
+    margin: 0px auto;
+}
+/* --------------- Mode responsive */
+@media screen and (max-width:576px){
+    .logo a{
+        font-size: 15px;
+        font-weight: 500;
+        width: 25% !important;
+    }
+    nav{
+        width: 70% !important;
+    }
+    nav ul{
+        width: 100%;
+    }
+    nav a{
+        font-size: 14px !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+}
